@@ -5,8 +5,6 @@
 }
 body{
     height: 40000px;
-    
-    
 }
 
 
@@ -43,7 +41,7 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     flex-wrap: wrap;
     position: relative;
-    font-size: 10px;
+    
 }
 
 .headlinks li a{
@@ -60,8 +58,7 @@ body{
 .headlinks li ul{
     display: none;
     position: absolute;
-    width: 100%;
-    padding: 10px 2px;
+    padding: 5px 2px;
     margin-top: 5px;
     border-radius: 5px;
 }
@@ -71,30 +68,18 @@ body{
 
 .headlinks li:hover ul {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 350px;
+    flex-direction: column;
+    padding-left: 30px;
+    width: 150px;
     background-color: darkgray;
     border: 2px black solid;
     font-size: 14px;
-    padding-left: 25px;
-    
-
 }
-
-
 
 .headlinks li ul li{
-    width:100px;
-    height:40px;
-    padding-top: 7px;
-    
+    width:100%;
+    padding: 2.5% 0;
 }
-
-
-
-
-
 
 .headlinks a{
     text-decoration: none;
@@ -119,19 +104,18 @@ body{
     line-height: 1.5;
 }
 
-.headingsectioninner{
-    display: flex;
-}
-
-
 .outterhead{
     padding-right: 40px;
     font-size: 25px;
 }
 
+.headingsectioninner{
+    display: flex;
+}
+
 .signupsection{
     display: flex;
-    border: 2px black solid;
+    border: 4px purple solid;
     background-color: aquamarine;
     
 }
@@ -156,12 +140,12 @@ body{
     border-radius: 5px 5px 5px 5px;
     padding: 5px 10px;
     background-color: gray;
-    color: white;
+   
     
 }
 
 .signupbutton{
-    align-self: center;
+    
 }
 
 .signupquote{
@@ -181,32 +165,18 @@ body{
    font-size: larger;
 }
 
-.subscrictionlinks{
-    border: 2px red solid;
+
+.rightimgsection{
+
+    border: 2px green solid;
 }
-
-
-.sublinksinner{
-    display: flex;
-}
-
-.cards{
-    
-}
-
-
-.cards li{
-    border: 2px black solid;
-}
-
 
 
 .offeroptions{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    
+    padding: 25px 0;
 
 }
 
@@ -218,29 +188,25 @@ body{
 }
 
 .offer{
-    background-color: brownd;
-    padding-bottom: 40px;
-    background-color: rgb(177, 16, 5);
+   
 }
 
 .linkoffersection{
     display: flex;
-    justify-content: space-between;
-    width: 500px;
-    max-width: 650px;
-   
+    justify-content: space-around;
+    width: 700px;
+    padding-top: 25px;
 }
 
 .linkoffersection a{
     text-decoration: none;
     text-align: center;
     border: 2px black solid;
-    padding: 5px;
+    padding: 15px;
     border-radius: 10px;
-    width: 100px;
-    
-    background-color: rgba(0, 17, 255, 0.932);
+    background-color: rgba(0, 17, 255, 0.822);
     color: black;
+   
 }
 
 
@@ -295,8 +261,14 @@ body{
     
 }
 
+h3{
+    text-align: center;
+    padding-top: 10px;
+    
+}
+
 .signupform{
-    height: 600px;
+    height: 500px;
     border: 2px solid lawngreen;
 }
     
@@ -304,7 +276,7 @@ body{
     height: 500px;
     border: 2px solid brown;
     display: flex;
-    background-color: rgb(235, 9, 9);
+    background-color: rgb(57, 169, 219);
     
 }
 
@@ -329,7 +301,7 @@ body{
 }
 
 .signupformpic{
-   width: 600px;
+   width: 800px;
    border: 2px solid orange;
 }
 
@@ -338,8 +310,17 @@ body{
     height: 100%;
 }
 
+footer{
+    border: 2px black solid;
+}
 
+.contact_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5% 0;
 
+}
 
 
 

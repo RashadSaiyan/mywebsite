@@ -11,3 +11,19 @@ if (age > 21){
 };
 
 canYouDrink(age);
+
+const drinkAge = (age) =>{
+    return age > 21 ? "Where the Henny at" : "Baby Bib" 
+};
+
+
+console.log(drinkAge(age));
+
+
+
+const beverage = age >= 21 ? "Beer" : "Juice";
+console.log(beverage); // "Beer"
+
+
+
+

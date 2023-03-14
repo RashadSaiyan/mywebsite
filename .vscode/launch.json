@@ -9,8 +9,8 @@
         {
             "type": "pwa-chrome",
             "request": "launch",
-            "name": "Open My Website.html",
-            "file": "c:\\Users\\J\\Desktop\\My Website\\My Website.html"
+            "name": "Open index.html",
+            "file": "c:\\Users\\J\\Desktop\\My Website\\index.html"
         }
     ]
 }

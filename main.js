@@ -24,6 +24,36 @@ console.log(drinkAge(age));
 const beverage = age >= 21 ? "Beer" : "Juice";
 console.log(beverage); // "Beer"
 
+const menu = {
+    _meal: '',
+    _price: 0,
+    _additions: '',
+
+
+    set meal(mealToCheck){
+        if (typeof mealToCheck === "string"){
+          return this._meal = mealToCheck; }
+    },
+
+    set price(priceToCheck){
+        if (typeof priceToCheck === 'number'){
+          return this._price = priceToCheck; }
+    },
+
+    get todaysSpecial(){
+        if(this._meal && this._price){
+          return `“Today’s Special is ${this._meal} for ${this._price}!”`}else
+          {
+            return `'Meal or price was not set       correctly!'`
+          }
+    }
+    
+}
+
+menu.meal = 'Hot Wings Fried Hard';
+menu.price = 14.99;
+
+console.log(menu.todaysSpecial);
 
 
 

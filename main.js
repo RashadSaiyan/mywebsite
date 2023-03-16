@@ -18,6 +18,7 @@ const drinkAge = (age) =>{
 console.log(drinkAge(age));
 
 //this is where i made changes 
+//made more changes again 1
 
 const beverage = age >= 21 ? "Beer" : "Juice";
 console.log(beverage); // "Beer"

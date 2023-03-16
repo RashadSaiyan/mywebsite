@@ -9,15 +9,6 @@ if (age > 21){
     console.log("Not yet here is some milk")
 }
 };
-const canYouDrink = (age) => {
-    if (age > 21){
-        console.log("Go ahead and drink")
-    }else{
-        console.log("Not yet here is some milk")
-    }
-    };
-
-canYouDrink(age);
 
 const drinkAge = (age) =>{
     return age > 21 ? "Where the Henny at" : "Baby Bib" 

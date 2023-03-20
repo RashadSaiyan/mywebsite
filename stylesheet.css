@@ -1,0 +1,386 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 40000px;
+}
+
+
+
+.headeroutter{
+  
+  
+}
+
+
+.headingsection{
+    
+    border-top: 2px red solid;
+    width: 100%;
+    
+    
+}
+
+
+.headlinks{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 980px;
+    height: 50px;
+    font-size: 14px;
+    border: 2px blueviolet solid;
+    
+   
+}
+
+.headlinks li{
+    list-style: none;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    flex-wrap: wrap;
+    position: relative;
+    
+}
+
+.headlinks li a{
+    font-size: 14px;
+}
+
+.headlinks li a:hover{
+    text-decoration: underline;
+    
+
+}
+
+
+.headlinks li ul{
+    display: none;
+    position: absolute;
+    
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+
+
+.headlinks li:hover ul {
+    display: flex;
+    width: 100%;
+    margin-top: 5px;
+    background-color: darkgray;
+    border: 2px green solid;
+    font-size: 14px;
+    
+}
+
+.headlinks li ul li{
+    width:100%;
+    padding:  0;
+}
+
+.headlinks a{
+    text-decoration: none;
+    color: black;
+    flex-wrap: wrap;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.upperheader{
+    height: 50px;
+}
+
+.upperheaderinner{
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    align-items: center;
+    line-height: 1.5;
+}
+
+.outterhead{
+    padding-right: 40px;
+    font-size: 25px;
+}
+
+.headingsectioninner{
+    display: flex;
+    border: 4px black solid;
+   
+}
+
+.signupsection{
+    height: 550px;
+    background-image: url("./images/fitnessbckgd.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px orange solid;
+    
+}
+
+.signupsectionpic_container_inner{
+    margin-top: 50px;
+    
+    width: 650px;
+    padding: 100px;
+    border: 2px black solid;
+    color: white;
+
+}
+
+.signupsectionpic_container_inner h2 {
+    height: 120px;
+    border: 2px orange solid;
+    line-height: 35px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 50px;
+
+}
+
+.signupsectionpic_container_inner p{
+    padding-top: 20px;
+    border: 2px black solid;
+    line-height: 35px;
+    font-weight: 500;
+    font-size: larger;
+
+}
+
+
+.signupinfo{
+    width: 450px;
+    padding-top: 150px;
+}
+
+.signupinfopage{
+    display: flex;
+    flex-direction: column;
+    padding-top: 0px;
+
+}
+
+
+.signupinfopage a{
+    align-self: center;
+    text-decoration: none;
+    border: 2px black solid;
+    border-radius: 5px 5px 5px 5px;
+    padding: 5px 10px;
+    background-color: gray;
+   
+    
+}
+
+.signupbutton{
+    
+}
+
+.signupquote{
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+}
+
+.signupinfopage p{
+   padding-bottom: 10px;
+   padding-left: 15px;
+   padding-right: 15px;
+   text-align: center;
+   line-height:30px;
+   padding-bottom: 40px;
+   font-size: larger;
+}
+
+
+.rightimgsection{
+
+   
+}
+
+
+.offeroptions{
+    height: 160px;
+    display: flex;
+   
+    flex-direction: column;
+    align-items: center;
+    width: 1200px;
+    border: #EB3D00 2px solid;
+    margin: 25px auto;
+    padding-top: 15px;
+
+}
+
+
+
+.offerssection{
+    height: 250px;
+    border: 2px solid black;
+    background-image: linear-gradient(to right, blue,#0DB4FF, #EBD253);
+    
+}
+
+.offer{
+   
+}
+
+.linkoffersection{
+   border: 2px green solid;
+   padding: 25px 0;
+   width: 1000px;
+   text-align: center;
+   display: flex; 
+   justify-content: space-between; 
+    
+}
+
+.linkoffersection a{
+    text-decoration: none;
+    height: 45px;
+    width: 25%;
+    text-align: center;
+    border: 2px rgb(233, 13, 156) solid;
+    background-color: rgb(252, 252, 255);
+    color: black;
+    transition-property: background-color;
+    transition-duration: 700ms;
+    padding-top: 10px;
+    font-weight: 700;
+}
+
+.linkoffersection a:hover{
+    background-color: #F35005 ;
+}
+
+.dietheading{
+    padding: 30px 0px;
+}
+
+
+.dietinfosection{
+    height: 450px;
+    display: flex;
+    border: solid black 2px;
+    
+    
+}
+
+.dietinfo{
+    border: 2px blue solid;
+    background-color: #0281E3 ;
+
+}
+
+.dietpic{
+   border: 2px green solid;
+   width: 650px;
+   
+}
+
+.nurtpic{
+    border: 2px purple solid;
+    height: 100%;
+}
+
+.nurtimgsection{
+    border: 2px red solid;
+}
+
+.text_info_box{
+    margin-top: 140px;
+    padding: 0px 25px;
+    border: 2px orange solid;
+    color: white;
+
+}
+
+.textinfo{
+    
+    line-height: 40px;
+    text-align: center;
+    font-size: larger;
+    font-weight: 200;
+
+}
+
+.nutrition-img4{
+  height: 100%;
+  width: 650px;
+}
+
+h3{
+    text-align: center;
+    padding-top: 10px;
+    
+}
+
+.signupform{
+    height: 500px;
+    border: 2px solid lawngreen;
+}
+    
+.signformsection{
+    height: 500px;
+    border: 2px solid brown;
+    display: flex;
+    background-color: rgb(57, 169, 219);
+    
+}
+
+.formcontainer{
+    margin: 3% auto;
+}
+
+.formsheetcontainer{
+    width: 400px;
+    height: 400px;
+    border: 2px solid navy;
+    border-radius: 40px;
+    padding: 50px ;
+    background-color: aqua;
+  
+}
+
+.formsheet{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.signupformpic{
+   width: 800px;
+   border: 2px solid orange;
+}
+
+.trainerpic{
+    width: 100%;
+    height: 100%;
+}
+
+footer{
+    border: 2px black solid;
+}
+
+.contact_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5% 0;
+
+}
+
+
+
+
+
+
